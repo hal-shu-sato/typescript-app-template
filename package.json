@@ -41,6 +41,6 @@
     "prettier-plugin-packagejson": "^2",
     "ts-node": "^10",
     "typescript": "^5",
-    "typescript-eslint": "^7"
+    "typescript-eslint": "^8"
   }
 }
