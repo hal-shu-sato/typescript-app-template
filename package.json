@@ -7,17 +7,17 @@
   "author": "ato lash <28973861+hal-shu-sato@users.noreply.github.com>",
   "main": "dist/index.js",
   "scripts": {
-    "start": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/index.ts",
     "build": "tsc -p .",
-    "watch": "tsc -w -p .",
     "dev": "npm-run-all2 -p watch start",
-    "prepare": "husky",
+    "fix": "npm-run-all2 fix:*",
+    "fix:eslint": "eslint --fix",
+    "fix:prettier": "prettier --write .",
     "lint": "npm-run-all2 lint:*",
     "lint:eslint": "eslint",
     "lint:prettier": "prettier --check .",
-    "fix": "npm-run-all2 fix:*",
-    "fix:eslint": "eslint --fix",
-    "fix:prettier": "prettier --write ."
+    "prepare": "husky",
+    "start": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/index.ts",
+    "watch": "tsc -w -p ."
   },
   "lint-staged": {
     "*.ts": [
