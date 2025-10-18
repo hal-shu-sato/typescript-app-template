@@ -17,7 +17,7 @@
     "lint:prettier": "prettier --check .",
     "prepare": "husky",
     "start": "node dist/index.js",
-    "watch:nodemon": "nodemon --watch 'src/**/*.ts' --exec ts-node src/index.ts",
+    "watch:nodemon": "nodemon --watch 'src/**/*.ts' --exec tsx src/index.ts",
     "watch:tsc": "tsc -w -p ."
   },
   "lint-staged": {
