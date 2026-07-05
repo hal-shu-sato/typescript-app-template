@@ -15,6 +15,7 @@
     "lint": "npm-run-all2 lint:*",
     "lint:eslint": "eslint",
     "lint:prettier": "prettier --check .",
+    "lint:ts": "tsc --noEmit",
     "prepare": "husky",
     "start": "node dist/index.js"
   },
