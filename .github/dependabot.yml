@@ -17,3 +17,7 @@ updates:
       prettier:
         patterns:
           - 'prettier*'
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'daily'
