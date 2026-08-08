@@ -17,6 +17,7 @@ updates:
       prettier:
         patterns:
           - 'prettier*'
+          - '@trivago/prettier-plugin*'
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:

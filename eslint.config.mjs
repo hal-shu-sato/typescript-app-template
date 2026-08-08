@@ -1,5 +1,4 @@
 // @ts-check
-
 import pluginJs from '@eslint/js';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import { defineConfig, globalIgnores } from 'eslint/config';
